@@ -1,0 +1,60 @@
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\DoAn1.csprojAssemblyReference.cache
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\MainWindow.g.cs
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\App.g.cs
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\MainWindow.baml
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\DoAn1.Properties.Resources.resources
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\DoAn1.csproj.GenerateResource.cache
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\DoAn1.csproj.CoreCompileInputs.cache
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\bin\Debug\Game Doan So.exe.config
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\bin\Debug\Game Doan So.exe
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\bin\Debug\Game Doan So.pdb
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\Game Doan So_MarkupCompile.cache
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\Game Doan So_MarkupCompile.lref
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\App.baml
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\XamlResources\BaseRes.baml
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\XamlResources\TriggerRes.baml
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\Game Doan So.g.resources
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\Game Doan So.exe
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\Game Doan So.pdb
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\Game.g.cs
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\Game.baml
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\bin\Debug\EntityFramework.dll
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\bin\Debug\EntityFramework.xml
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\Game Doan So_Content.g.cs
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\DoAn1.csproj.CopyComplete
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\WinGame.g.cs
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\WinGame.baml
+C:\Users\Admin\Desktop\DoAn1\bin\Debug\Game Doan So.exe.config
+C:\Users\Admin\Desktop\DoAn1\bin\Debug\Game Doan So.exe
+C:\Users\Admin\Desktop\DoAn1\bin\Debug\Game Doan So.pdb
+C:\Users\Admin\Desktop\DoAn1\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\DoAn1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\DoAn1\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\DoAn1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\DoAn1.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\Game.g.cs
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\Score.g.cs
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\WinGame.g.cs
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\Game Doan So_Content.g.cs
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\Game Doan So_MarkupCompile.cache
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\Game Doan So_MarkupCompile.lref
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\App.baml
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\Game.baml
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\WinGame.baml
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\XamlResources\BaseRes.baml
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\XamlResources\TriggerRes.baml
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\Score.baml
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\Game Doan So.g.resources
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\DoAn1.Properties.Resources.resources
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\DoAn1.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\DoAn1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\DoAn1.csproj.CopyComplete
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\Game Doan So.exe
+C:\Users\Admin\Desktop\DoAn1\obj\Debug\Game Doan So.pdb
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\Score.g.cs
+D:\Học Kỳ 1- Năm 3\Đồ án CNTT\DoAn1\obj\Debug\Score.baml

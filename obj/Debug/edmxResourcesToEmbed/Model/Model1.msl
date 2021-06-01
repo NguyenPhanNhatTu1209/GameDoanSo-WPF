@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DoAnCNTTModelStoreContainer" CdmEntityContainer="DoAnCNTTEntities">
+    <EntitySetMapping Name="Diems">
+      <EntityTypeMapping TypeName="DoAnCNTTModel.Diem">
+        <MappingFragment StoreEntitySet="Diem">
+          <ScalarProperty Name="NameUser" ColumnName="NameUser" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

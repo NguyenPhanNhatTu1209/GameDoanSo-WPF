@@ -1,0 +1,138 @@
+﻿<Window x:Class="DoAn1.Score"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoAn1"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="CanMinimize"
+        WindowStartupLocation="CenterScreen"
+        Title="Score" Height="680" Width="1024">
+    <Window.Resources>
+        <Color x:Key="Color1">#FF89DCF6</Color>
+    </Window.Resources>
+    <Window.Background>
+
+        <ImageBrush ImageSource="images/anhnen.png"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Image Source="images/Score.png"
+               Height="262"
+               Margin="114,0,0,0"
+               Cursor="Hand"
+               HorizontalAlignment="Left" VerticalAlignment="Top" Width="652" RenderTransformOrigin="1.671,0.623"
+               >
+
+        </Image>
+        <Image Source="images/Easy.png"
+               Height="90"
+               Margin="210,218,0,0"
+               Cursor="Hand"
+               HorizontalAlignment="Left" VerticalAlignment="Top" Width="156" RenderTransformOrigin="1.671,0.623"
+               MouseDown="Image_MouseDown_Easy"></Image>
+        <Image Source="images/Hard.png"
+               Height="90"
+               Margin="210,308,0,0"
+               Cursor="Hand"
+               HorizontalAlignment="Left" VerticalAlignment="Top" Width="156" RenderTransformOrigin="1.671,0.623"
+               MouseDown="Image_MouseDown_Hard"></Image>
+
+        <Grid Margin="114,153,114,60" x:Name="diem"/>
+
+        <!--Button trở về trang chủ-->
+
+        <Grid HorizontalAlignment="Left" 
+               VerticalAlignment="Center"
+               Height="100"
+               Cursor="Hand"
+               Margin="10,580,0,0"
+               MouseDown="Image_MouseDown_IsBack"
+                MouseEnter="Grid_MouseEnter" RenderTransformOrigin="0.662,-0.087" Width="297">
+            <Image Margin="0,0,-63,0">
+                <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Source" Value="images/button/0%-imotal-kteam.png"></Setter>
+                        <Style.Triggers>
+                            <MultiDataTrigger>
+                                <MultiDataTrigger.Conditions>
+                                    <Condition Binding="{Binding IsBack}" Value="False"></Condition>
+                                    <Condition Binding="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Grid}, Path=IsMouseOver}" Value="True"></Condition>
+                                </MultiDataTrigger.Conditions>
+                                <MultiDataTrigger.EnterActions>
+                                    <BeginStoryboard Storyboard="{StaticResource imotalImageStoryStart}"></BeginStoryboard>
+                                </MultiDataTrigger.EnterActions>
+                                <MultiDataTrigger.ExitActions>
+                                    <BeginStoryboard Storyboard="{StaticResource imotalImageStoryEnd}"></BeginStoryboard>
+                                </MultiDataTrigger.ExitActions>
+                            </MultiDataTrigger>
+                            <MultiDataTrigger>
+                                <MultiDataTrigger.Conditions>
+                                    <Condition Binding="{Binding IsBack}" Value="True"></Condition>
+                                </MultiDataTrigger.Conditions>
+                                <MultiDataTrigger.EnterActions>
+                                    <BeginStoryboard Storyboard="{StaticResource imotalImageStoryStart}"></BeginStoryboard>
+                                </MultiDataTrigger.EnterActions>
+                                <MultiDataTrigger.ExitActions>
+                                    <BeginStoryboard Storyboard="{StaticResource imotalImageStoryEnd}"></BeginStoryboard>
+                                </MultiDataTrigger.ExitActions>
+                            </MultiDataTrigger>
+
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+            </Image>
+
+
+
+            <StackPanel HorizontalAlignment="Right"                        
+                    Width="100"                        
+                    Cursor="Hand"
+               Margin="0 0 10 1"
+                    VerticalAlignment="Bottom">
+                <TextBlock x:Name="abc" TextWrapping="Wrap"
+                           FontSize="30"
+                           TextAlignment="Right" 
+                           FontFamily="{StaticResource mainFont}" Height="52" Margin="-127,0,-33,0" RenderTransformOrigin="0.5,0.5">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="359.162"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                    <TextBlock.Style>
+                        <Style  TargetType="{x:Type TextBlock}">
+                            <Setter Property="Text" Value="Back"/>
+                            <Setter Property="Foreground" Value="Gray"/>
+                            <Style.Triggers>
+                                <MultiDataTrigger>
+                                    <MultiDataTrigger.Conditions>
+                                        <Condition Binding="{Binding IsBack}" Value="False"/>
+                                        <Condition Binding="{Binding IsMouseOver, RelativeSource={RelativeSource AncestorType={x:Type Grid}, Mode=FindAncestor}}" Value="True"/>
+                                    </MultiDataTrigger.Conditions>
+                                    <MultiDataTrigger.EnterActions>
+                                        <BeginStoryboard Storyboard="{StaticResource createStoryMode}"/>
+                                    </MultiDataTrigger.EnterActions>
+                                    <Setter Property="Foreground" Value="#F15A24"/>
+                                </MultiDataTrigger>
+                                <MultiDataTrigger>
+                                    <MultiDataTrigger.Conditions>
+                                        <Condition Binding="{Binding IsBack}" Value="True"/>
+                                    </MultiDataTrigger.Conditions>
+                                    <MultiDataTrigger.EnterActions>
+                                        <BeginStoryboard Storyboard="{StaticResource createStoryMode}"/>
+                                    </MultiDataTrigger.EnterActions>
+                                    <Setter Property="Foreground" Value="#F15A24"/>
+                                </MultiDataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+            </StackPanel>
+        </Grid>
+
+
+    </Grid>
+</Window>
